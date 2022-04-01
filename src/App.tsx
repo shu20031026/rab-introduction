@@ -1,7 +1,9 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react"
 import MyFace from "./my-face.jpg" 
+import Twitter from "./twitter-icon.jpeg"
 import Introduction from "./introduction.json"
+
 const background = css`
   width: 100%;
   height:100vh;
@@ -13,12 +15,12 @@ const pageTop = css`
   height: 50%;
 ` 
 
-const imageWrapper = css`
+const mainImageWrapper = css`
   margin-top: -200px;
   padding-left: 50px;
 `
 
-const image = css`
+const mainImage = css`
   border-radius: 50%;
   border: 0.5rem solid white;
 `
@@ -27,7 +29,6 @@ const pageBottom = css`
   background-color: white;
   width: 100%;
 `
-
 const nameArea = css`
   display: flex;
   align-items: flex-end;
@@ -39,13 +40,20 @@ const kanjiName = css`
   font-size: 6.0rem;
   color: white;
   font-weight: bold;
-
 `
 const englishName = css`
   margin: 0;
   font-size: 4.0rem;
   color: white;
   margin-bottom: 12px;
+`
+const twitterImage = css`
+  border-radius: 50%;
+  border: 0.5rem solid white;
+`
+const twitterIconWrapper = css`
+  margin-left: 300px;
+  margin-top: -40px;
 `
 
 const App = () => {
@@ -58,12 +66,17 @@ const App = () => {
           <p css={kanjiName}>{`${data.name.lastName.kanji} ${data.name.firstName.kanji}`}</p>
           <p css={englishName}>{`${data.name.firstName.english} ${data.name.lastName.english}`}</p>
         </div>
-        
+        <div>
+
+        </div>
       </div>
-      <div css={imageWrapper}>
-        <img src={MyFace} alt="かお" css={image} width="400px" height="400px"/>
+      <div css={mainImageWrapper}>
+        <img src={MyFace} alt="かお" css={mainImage} width="400px" height="400px"/>
       </div>
       <div css={pageBottom}>
+        <div css={twitterIconWrapper}>
+          <img src={Twitter} alt="twitter icon" css={twitterImage} width="200px" height="200px"/>
+        </div>
       </div>
     </div>
   </>
