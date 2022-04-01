@@ -1,15 +1,26 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react"
 
-const hello = css`
-  color: red;
+const background = css`
+  background-color: #bbe2f1;
+  width: 100%;
+  height:100vh;
+`
+
+const backgroundTop = css`
+
+` 
+
+const backgroundBottom = css`
+
 `
 
 function App() {
   return (
   <>
-    <div css={hello}>
-      aa
+    <div css={background}>
+      <div css={backgroundTop}></div>
+      <div css={backgroundBottom}></div>
     </div>
   </>
   );

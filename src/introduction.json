@@ -1,0 +1,58 @@
+{
+  "name": {
+    "firstName":{
+      "kanji": "柊",
+      "kana": "しゅう",
+      "english": "Shu"
+    },
+    "lastName":{
+      "kanji": "中嶋",
+      "kana": "なかしま",
+      "english": "Nakashima"
+    },
+    "nickName":"hiiragi"
+  },
+  "studentNumber": 4423,
+  "specializedField": "Web班",
+  "favouriteTech": [
+    {
+      "thing":"JavaScript/TypeScript",
+      "comment":"一番得意な言語です. Webサイトを作ったりサーバーを立てるのに使います. "
+    },
+    {
+      "thing":"React",
+      "comment":"Webサイトを作るときに使ってるライブラリです. モダンですごく使いやすい！"
+    },
+    {
+      "thing":"Next.js/Gatsby.js",
+      "comment":"バイトで使ってます！ Reactを更に便利に使えるのでこれがメイン"
+    },
+    {
+      "thing":"Go言語",
+      "comment":"最近勉強中の言語です. シンプルな言語でちょっと難しいけど面白い! サーバーを立てるのに使ってます"
+    },
+    {
+      "thing":"Docker",
+      "comment":"つい最近勉強をはじめました. 環境構築がらくらくできる！"
+    }
+  ],
+  "hobby": [
+    {
+      "thing":"ポケカ",
+      "comment":"友達から誘われてはじめました. 毎月のように新製品が出てお財布が苦しい..."
+    },
+    {
+      "thing":"音楽鑑賞(ボカロ・ネット音楽等)",
+      "comment":"神椿studioのミュージシャンが最近の最オシ! カラオケも大好き！"
+    },
+    {
+      "thing":"サウナ",
+      "comment":"先輩に紹介されて以来ドハマリ. でも寮の近くになくて時々しか行けない..."
+    }
+  ],
+  "twitter": {
+    "id":"@hiiragi61848684",
+    "name":"Hiiragi.tsx"
+  },
+  "others": []
+}
