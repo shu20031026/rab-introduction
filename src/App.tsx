@@ -8,34 +8,41 @@ const background = css`
   width: 100%;
   height:100vh;
 `
+
 const pageTop = css`
   background-color: #3a8daa;
   width: 100%;
   height: 70%;
 ` 
+
 const mainImageWrapper = css`
   margin-top: -360px;
   padding-left: 50px;
 `
+
 const mainImage = css`
   border-radius: 50%;
   border: 0.5rem solid white;
 `
+
 const pageBottom = css`
   background-color: white;
   width: 100%;
   display: flex;
 `
+
 const nameArea = css`
   display: flex;
   color: white;
   justify-content: space-between;
 `
+
 const nameWrapper = css`
   align-items: flex-end;
   padding: 24px;
   display: flex;
 `
+
 const kanjiName = css`
   margin: 0;
   margin-right: 12px;
@@ -43,16 +50,19 @@ const kanjiName = css`
   color: white;
   font-weight: bold;
 `
+
 const englishName = css`
   margin: 0;
   font-size: 4.0rem;
   color: white;
   margin-bottom: 12px;
 `
+
 const twitterImage = css`
   border-radius: 50%;
   border: 0.5rem solid white;
 `
+
 const twitterIconWrapper = css`
   margin-left: -30px;
   margin-top: -35px;
@@ -73,10 +83,12 @@ const studentNumber = css`
   margin: 0;
   font-size: 1.8rem;
 `
+
 const specializeField = css `
   margin: 0;
   font-size: 1.8rem;
 `
+
 const favSpace = css`
   margin-left: 500px;
   color: white;
