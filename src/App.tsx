@@ -25,9 +25,11 @@ import {
   pageTop, 
   specializeField, 
   studentNumber, 
+  twitterBorder, 
   twitterContent, 
   twitterIconWrapper, 
   twitterImage, 
+  twitterImageBorder, 
   twitterObject, 
   twitterTitle 
 } from "./style"
@@ -63,17 +65,23 @@ const App = () => {
         </div>
       </div>
       <div css={mainImageWrapper}>
-        <img src={MyFace} alt="かお" css={mainImage} width="400px" height="400px"/>
+        <div>
+          <img src={MyFace} alt="かお" css={mainImage} width="400px" height="400px"/>
+        </div>
       </div>
       <div css={pageBottom}>
-        <div css={twitterObject}>
-          <p css={twitterTitle}>Twitter</p>
-          <p css={twitterContent}>{data.twitter.name}</p>
-          <p css={twitterTitle}>Twitter Id</p>
-          <p css={twitterContent}>{data.twitter.id}</p>
+        <div css={twitterBorder}>
+          <div css={twitterObject}>
+            <p css={twitterTitle}>Twitter</p>
+            <p css={twitterContent}>{data.twitter.name}</p>
+            <p css={twitterTitle}>Twitter Id</p>
+            <p css={twitterContent}>{data.twitter.id}</p>
+          </div>
         </div>
         <div css={twitterIconWrapper}>
-          <img src={Twitter} alt="twitter icon" css={twitterImage} width="220px" height="220px"/>
+          <div css={twitterImageBorder}>
+            <img src={Twitter} alt="twitter icon" css={twitterImage} width="210px" height="210px"/>
+          </div>
         </div>
         <div css={bottomSpace}>
           <div css={hobbyTitle}>趣味</div>

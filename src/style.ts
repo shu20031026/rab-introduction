@@ -4,10 +4,11 @@ import { css } from "@emotion/react"
 export const background = css`
   width: 100%;
   height:100vh;
+  background-color:#e0ffff;
 `
 
 export const pageTop = css`
-  background-color: #3a8daa;
+  background: linear-gradient(-30deg,#3a8daa,#ba55d3);
   width: 100%;
   height: 70%;
 ` 
@@ -19,11 +20,11 @@ export const mainImageWrapper = css`
 
 export const mainImage = css`
   border-radius: 50%;
-  border: 0.5rem solid white;
+  border: 0.5rem solid #e0ffff;
 `
 
 export const pageBottom = css`
-  background-color: white;
+  background-color: #e0ffff;
   width: 100%;
   display: flex;
 `
@@ -57,7 +58,6 @@ export const englishName = css`
 
 export const twitterImage = css`
   border-radius: 50%;
-  border: 0.5rem solid white;
 `
 
 export const twitterIconWrapper = css`
@@ -65,10 +65,20 @@ export const twitterIconWrapper = css`
   margin-top: -35px;
 `
 
+export const twitterImageBorder = css `
+  display: flex;
+  background: linear-gradient(-30deg,#3a8daa,#ba55d3,#ee82ee);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 224px;
+  height: 224px;
+`
+
 export const bottomSpace = css`
   margin-top: -50px;
   margin-left: -40px;
-  color: #3a8daa;
+  color: #00008b;
 `
 
 export const nameOtherInfo = css`
@@ -126,14 +136,12 @@ export const hobbyContainer = css`
 
 export const twitterObject = css`
   text-align: center;
-  margin-left: 80px;
-  margin-top: -80px;
   width: 160px;
   height: 160px;
   border-radius: 50%;
-  background-color: #3a8daa;
+  background-color: #20b2aa;
   color: white;
-  border: 0.5rem solid white;
+  border: 0.5rem solid #20b2aa;
 `
 
 export const twitterTitle = css`
@@ -143,4 +151,16 @@ export const twitterTitle = css`
 
 export const twitterContent = css`
   margin:10px;
+`
+
+export const twitterBorder = css`
+  display: flex;
+  background: linear-gradient(-30deg,#3a8daa,#ba55d3,#ee82ee);
+  border-radius: 50%;
+  width: 190px;
+  height: 190px;
+  margin-left: 80px;
+  margin-top: -80px;
+  justify-content: center;
+  align-items: center;
 `
