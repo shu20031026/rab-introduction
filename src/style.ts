@@ -71,8 +71,8 @@ export const twitterImageBorder = css `
   border-radius: 50%;
   justify-content: center;
   align-items: center;
-  width: 224px;
-  height: 224px;
+  width: 220px;
+  height: 220px;
 `
 
 export const bottomSpace = css`
